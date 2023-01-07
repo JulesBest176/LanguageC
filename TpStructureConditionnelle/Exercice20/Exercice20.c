@@ -23,7 +23,7 @@ int main(){
                     if(!((annees%4==0 && annees%100!=0)  || (annees%400==0)) && jours>28  && mois==2){//ici on verifie le mois de fevrier dans le cas ou il n'est pas bissextile
                         printf("Date Inexistante");
                     } else {
-                         if((annees%4==0 && annees%100!=0)  || (annees%400==0) && jours>29  && mois==2){//ici on verifie le mois de fevrier dans le cas ou il n'est pas bissextile
+                         if((annees%4==0 && annees%100!=0)  || (annees%400==0) && jours>29  && mois==2){//ici on verifie le mois de fevrier dans le cas ou est bissextile
                             printf("Date Inexistante");
                          } else {
                             printf("Date Existante");
